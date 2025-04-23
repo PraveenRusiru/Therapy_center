@@ -1,0 +1,23 @@
+package lk.ijse.therapy_center.DTO;
+
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.sql.Date;
+
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+public class PatientDTO {
+    private String  id;
+    private String name;
+    private String contact_number;
+    private String email;
+    private String medical_history;
+    private Date registration_date;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="687.0" prefWidth="1210.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.therapy_center.Controller.LoginHeroController">
+   <children>
+      <ImageView fitHeight="687.0" fitWidth="1222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Leonardo_Phoenix_09_modern_mental_health_therapy_center_with_1.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="loginPane" layoutX="372.0" layoutY="178.0" prefHeight="331.0" prefWidth="471.0" style="-fx-border-width: 3px; -fx-border-radius: 20px;" />
+   </children>
+</AnchorPane>
