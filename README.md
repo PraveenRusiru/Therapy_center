@@ -15,8 +15,6 @@ A **desktop-based Therapy Center Management System** built with **JavaFX** and *
 - **Email support** (Java Mail) for notifications/communication  
 - **Password hashing** with jBCrypt  
 
-> Note: Update the feature list with your exact modules/screens if you want it to be 100% feature-accurate.
-
 ---
 
 ## 🧰 Tech Stack
@@ -64,10 +62,12 @@ A **desktop-based Therapy Center Management System** built with **JavaFX** and *
 ```bash
 git clone https://github.com/PraveenRusiru/Therapy_center.git
 cd Therapy_center
+```
+###2) Configure the database
 
-2) Configure the database
-
+```bash
 Create a MySQL database (example):
+```
 
 CREATE DATABASE therapy_center;
 
@@ -80,4 +80,18 @@ Make sure these values are correct:
 	•	Username / Password
 	•	Hibernate Dialect (MySQL)
 
-If your repo contains SQL scripts, run them to create tables (check src/main/resources/).
+🤝 Contributing
+	1.	Fork the repository
+	2.	Create your feature branch:	
+		```bash
+		git checkout -b feature/my-feature
+		```
+	3.	Commit changes:
+		```bash
+			git commit -m "Add: my feature"		
+		```
+	4.	Push to the branch:
+		```bash
+			git push origin feature/my-feature	
+		```
+	5.	Open a Pull Request
