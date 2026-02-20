@@ -57,7 +57,7 @@ A **desktop-based Therapy Center Management System** built with **JavaFX** and *
 
 ## ⚙️ Setup & Run
 
-### 1) Clone the repository
+## 1) Clone the repository
 
 ```bash
 git clone https://github.com/PraveenRusiru/Therapy_center.git
@@ -72,26 +72,26 @@ Create a MySQL database (example):
 CREATE DATABASE therapy_center;
 
 Then update your DB configuration (commonly one of these locations):
-	•	hibernate.cfg.xml, or
-	•	a .properties file inside src/main/resources/
+	- **hibernate.cfg.xml**, or
+	- **a .properties file** inside src/main/resources/
 
 Make sure these values are correct:
-	•	DB URL (example: jdbc:mysql://localhost:3306/therapy_center)
-	•	Username / Password
-	•	Hibernate Dialect (MySQL)
+	- **DB URL** (example: jdbc:mysql://localhost:3306/therapy_center)
+	- **Username / Password**
+	- **Hibernate Dialect (MySQL)**
 
 🤝 Contributing
-	- 1.	Fork the repository
-	- 2.	Create your feature branch:	
+	- **Fork the repository**
+	- **Create your feature branch:**	
 		```bash
 		git checkout -b feature/my-feature
 		```
-	- 3.	Commit changes:
+	- **Commit changes:**
 		```bash
 			git commit -m "Add: my feature"		
 		```
-	4.	Push to the branch:
+	- **Push to the branch:**
 		```bash
 			git push origin feature/my-feature	
 		```
-	5.	Open a Pull Request
+	- **Open a Pull Request**
