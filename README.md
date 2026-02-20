@@ -63,7 +63,7 @@ A **desktop-based Therapy Center Management System** built with **JavaFX** and *
 git clone https://github.com/PraveenRusiru/Therapy_center.git
 cd Therapy_center
 ```
-###2) Configure the database
+## 2) Configure the database
 
 ```bash
 Create a MySQL database (example):
@@ -72,26 +72,26 @@ Create a MySQL database (example):
 CREATE DATABASE therapy_center;
 
 Then update your DB configuration (commonly one of these locations):
-	- **hibernate.cfg.xml**, or
-	- **a .properties file** inside src/main/resources/
+- **hibernate.cfg.xml**, or
+- **a .properties file** inside src/main/resources/
 
 Make sure these values are correct:
-	- **DB URL** (example: jdbc:mysql://localhost:3306/therapy_center)
-	- **Username / Password**
-	- **Hibernate Dialect (MySQL)**
+- **DB URL** (example: jdbc:mysql://localhost:3306/therapy_center)
+- **Username / Password**
+- **Hibernate Dialect (MySQL)**
 
 🤝 Contributing
-	- **Fork the repository**
-	- **Create your feature branch:**	
-		```bash
+- **Fork the repository**
+- **Create your feature branch:**	
+```bash
 		git checkout -b feature/my-feature
-		```
-	- **Commit changes:**
-		```bash
+```
+- **Commit changes:**
+```bash
 			git commit -m "Add: my feature"		
-		```
-	- **Push to the branch:**
-		```bash
+```
+- **Push to the branch:**
+```bash
 			git push origin feature/my-feature	
-		```
-	- **Open a Pull Request**
+```
+- **Open a Pull Request**
