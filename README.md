@@ -81,12 +81,12 @@ Make sure these values are correct:
 	•	Hibernate Dialect (MySQL)
 
 🤝 Contributing
-	1.	Fork the repository
-	2.	Create your feature branch:	
+	- 1.	Fork the repository
+	- 2.	Create your feature branch:	
 		```bash
 		git checkout -b feature/my-feature
 		```
-	3.	Commit changes:
+	- 3.	Commit changes:
 		```bash
 			git commit -m "Add: my feature"		
 		```
